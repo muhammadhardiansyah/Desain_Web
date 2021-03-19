@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pendaftaran Anggota Perpustakaan UNS</title>
+</head>
+<body bgcolor="#DDF8F1">
+    <table width="100%" >
+        
+        <tr height="70">
+            <td>
+                <img src="img/LIB.png" width="170" alt="logo_perpusUNS">
+            </td>
+            <th colspan="2"bgcolor="#2FFBC6">
+                <h1> Pendaftaran Anggota Perpustakaan UNS</h1>
+            </th>
+        </tr>
+        
+        <tr><td colspan="3"></td></tr>
+        
+        <!--Petunjuk-->
+        <tr>
+            <td width="15%"></td>
+            <td widht="70%" align="center">
+                <table>
+                    <tr>
+                        <td><img src="img/logo-uns-biru.png" width="150" alt="logo_UNS"></td>
+                        <td>
+                            <h2>Petunjuk : </h2>
+                            <ol>
+                                <li><p>Pastikan data yang anda masukkan sesuai kartu identitas yang berlaku</p></li>
+                                <li><p>Jika anda sudah pernah mendaftar namun tidak bisa mengakses akun anda, maka hubungi pihak <b>admin</b> perpustakaan </p></li>
+                                <li><p>Periksa lagi sebelum data di submit.</p></li>
+                                <li><p>Kartu identitas yang sudah pernah dipakai mendaftar, tidak bisa mendaftar lagi.</p></li>
+                            </ol>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="15%"></td>
+        </tr>
+        
+        <tr><th colspan="3"></th></tr>
+        
+        <!--Isi-->
+        <tr>
+            <td></td>
+            <td>
+                <table align="center" width="100%" border="3" bordercolor="cyan">
+                    <tr bgcolor="cyan">
+                        <td width="100%"><h2><center>Formulir Pendaftaran</center></h2></td>
+                    </tr>
+                    <tr><td>
+                
+                <form>
+                    <fieldset>
+                        <legend></legend>
+                        <table width="80%" >
+                            
+                            <tr><p> <td><label>No Identitas</label></td>
+                                <td>:</td>
+                                <td><select name="No Id">
+                                    <option value="KTP">KTP</option>
+                                    <option value="NISN">NISN </option>
+                                    <option value="KITAS">KITAS (Khusus WNA)</option>
+                                </select></td> 
+                                <br>
+                                <td><input width="120px" height="30px" type="text" name="No Identitas" placeholder="1234567890"></td>
+                            </tr></p>
+                            
+                            
+                            <tr><p>
+                                <td><Label>Nama Lengkap</Label></td>
+                                <td>:</td>
+                                <td><input type="text" name="nama" placeholder="Sesuai dengan Kartu Identitas"></td>
+                            </p></tr>
+                            
+                            
+                            <tr><p>
+                                <td><label>Email</label></td>
+                                <td>:</td>
+                                <td><select name="Email">
+                                    <option value="Email Pribadi">Email Pribadi</option>
+                                    <option value="SSO">SSO</option>
+                                </select></td>
+                                <td><input type="text" name="email" placeholder="qwerty123@hotmail.com"></td>
+                            </tr></p>
+                            
+                            <tr><p>
+                                <td><label>Password</label></td>
+                                <td>:</td>
+                                <td><input type="password" name="password" placeholder="pass123"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td>Fakultas</td>
+                                <td>:</td>
+                                <td><input type="text" name="fakultas"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td>Program Studi</td>
+                                <td>:</td>
+                                <td><input type="text" name="prodi"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><label>NIM</label></td>
+                                <td>:</td>
+                                <td><input type="text" name="nim" placeholder="K1234567"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><Label>Tanggal Lahir</Label></td>
+                                <td>:</td>
+                                <td><input type="date" name="tglLhr"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><label>Jenis Kelamin</label></td>
+                                <td>:</td>
+                                <td><label><input type="radio" name="jenis" value="male">Laki-Laki</label></td>
+                                <td><label><input type="radio" name="jenis" value="female">Perempuan</label></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><Label>Alamat Tempat Tinggal <br>Sesuai Identitas</Label></td>
+                                <td>:</td>
+                                <td><textarea name="alamat_ID" cols="30" rows="10"></textarea></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><label>Alamat Tempat Tinggal <br>Saat Ini</label></td>
+                                <td>:</td>
+                                <td><textarea name="alamat_now" cols="30" rows="10"></textarea></td>
+                            </p></tr>
+                        </td></tr>    
+                        </table>
+
+                </table>
+                        
+                        <p>
+                            <label>Persetujuan</label> <br>
+                            <label><input type="checkbox" name="peraturan"> Saya bersedia mematuhi segala peraturan perpustakaan</label> <br>
+                            <label><input type="checkbox" name="privasi"> Saya setuju dengan kebijakan privasi dari perpustakaan</label>
+                        </p>
+                        
+                        <p>
+                            <label><input type="submit" name="submit" value="Daftar"></label>
+                        </p>
+                        
+                    </fieldset>
+                </form>
+            </td>
+            <td></td>
+        </tr>
+        
+        <tr>
+            
+            <td bgcolor="cyan" colspan="3" height="50"></td>
+            
+        </tr>
+    </table>
+    
+</body>
+</html>
