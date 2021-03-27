@@ -1,0 +1,40 @@
+body {
+    background-color: cornflowerblue;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    text-align: center;
+}
+.header {
+    border-style:outset;
+    border-color: darkcyan;
+    background-color: cyan;
+    margin: 10px;
+    width: auto;
+}
+.content {
+    border-style: outset;
+    border-color: mediumblue;
+    margin: 1px 160px;
+    background-color: darkcyan;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: whitesmoke;
+    padding: 10px;
+}
+img {
+    width: 900px;
+}
+iframe {
+    width: 900px;
+    height: 500px;
+}
+#example {
+    border-style: dotted;
+    border-color: springgreen;
+    margin: 30px;
+    padding: 10px;
+}

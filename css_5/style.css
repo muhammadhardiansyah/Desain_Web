@@ -1,0 +1,107 @@
+* {
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+}
+body {
+    background-color: cornflowerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    font-size: large;
+    color: black;
+}
+.wrapper {
+    margin: 100px 100px 0px 100px;
+    width: 100%;
+    padding: 10px 40px;
+    background-color: rgba(255, 255, 255, 0.938);
+    position: relative;
+    border-style: groove;
+    border-color: aqua
+}
+.menu {
+    float: right;
+}
+.logo a {
+    overflow: hidden;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Courier;
+    color: black;
+    float: left;
+}
+nav {
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+}
+ul li {
+    float: left;
+    position: relative;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: darkblue;
+}
+section {
+    margin: auto;
+}
+.containt {
+    margin: 0px 100px 10px 100px;
+    width: auto;
+    height: 540px;
+    padding: 10px 40px;
+    background-color: rgba(255, 255, 255, 0.938);
+    position: relative;
+    border-style: groove;
+    border-color: aqua
+}
+#hello {
+    float: left;
+    padding-top: 125px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+#pict {
+    padding: 40px;
+    float: right;
+}
+.hi {
+    font-size: 30px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+h2 {
+    font-size: 48px;
+}
+p {
+    color: cornflowerblue;
+}
+.next{
+    padding: 40px;
+    margin: 0px 100px 40px 100px;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.938);
+}
+#quote {
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 30px;
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: cornflowerblue;
+}
+.header{
+    padding: 5px;
+    border: 1px outset white;
+    background-color: cyan;
+}
+.content {
+    margin: 10px 80px;
+    border: 1px double white;
+    padding: 20px;
+    background-color: cyan;
+}
+.example {
+    padding: 20px;
+    margin: 30px;
+    background-color: aquamarine;
+    border: 1px navy;
+    border-style: solid;
+}
+img {
+    width: 900px;
+}
+iframe {
+    width: 900px;
+    height: 500px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategray;
+    text-align: center;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+img.gambar {
+    width: 500px;
+}

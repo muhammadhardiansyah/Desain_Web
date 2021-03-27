@@ -1,0 +1,57 @@
+.header {
+    background-color:rgb(68, 112, 192);
+    padding: 10px;
+    text-align: center;
+    border: 1px;
+}
+body {
+    background-color:cornflowerblue;
+    float: left;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.kotak{
+    border: 1px solid;
+    padding: 10px;
+    margin: 40px 90px;
+    background-color:rgb(68, 112, 192);
+}
+#gambarKanan{
+    height: 150px;
+    float: right;
+    margin-right: 10px;
+}
+#gambarKiri{
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+#gambarInherit{
+    height: 150px;
+    float: inherit;
+    margin-right: 10px;
+}
+#gambarNone{
+    height: 150px;
+    float: none;
+    margin-right: 10px;
+}
+ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.code {
+    width: 900px;
+}
+.example {
+    padding: 20px;
+    margin: 30px;
+    background-color: cornflowerblue;
+    border: 1px navy;
+    border-style: solid;
+}

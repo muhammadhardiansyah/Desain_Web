@@ -1,0 +1,20 @@
+body {
+    background-color: cornflowerblue;
+    padding: 30px 40px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: blue;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+}
+img{
+    width: 968px;
+}
+iframe{
+    width: 968px;
+}
