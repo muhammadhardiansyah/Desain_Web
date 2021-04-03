@@ -10,7 +10,7 @@
                 background-color: white;
             }
             #header {
-                background-image:url(img/bg.jpg);
+                background-image:url(../img/bg.jpg);
                 border-bottom-right-radius: 50px ;
                 width: 730px;
                 height: 300px;
@@ -136,7 +136,6 @@
                 color: white;
             }
             #konten {
-                background-color: white;
                 width: 690px;
                 height: auto;
                 margin: 0 0 20px;
@@ -180,9 +179,20 @@
                 border-top-left-radius: 50px;
                 border-bottom-right-radius: 50px;
             }
-            #select{
+            #select {
                 background: black;
             }
+            #photo {
+                border-top-left-radius: 30%;
+                border-bottom-right-radius: 30%;
+                float: left;
+                margin: 5px 10px;
+                width: 50px;
+                height: auto;
+                
+            }
+            
+            
         </style>
     </head>
     <body>
@@ -190,7 +200,7 @@
 
             <div id="kiri">
                 <br><center>
-                    <img id="logo" src="img/myLogo.png" height="200" width="200">
+                    <img id="logo" src="../img/myLogo.png" height="200" width="200">
                     </center><br>
                     <h2>Hal yang saya pelajari</h2>
                     <ul>
@@ -211,13 +221,13 @@
             </div>
             <div id="menu">
                 <ul>
-                    <li><a id="select" href="project_Last.html">HOME</a></li>
-                    <li><a href="contain/tentang saya.html">TENTANG</a></li>
-                    <li><a href="contain/html&css.html">HTML & CSS</a></li>
-                    <li><a href="#">CONSTRUCT 2</a>
+                    <li><a href="../project_Last.html">HOME</a></li>
+                    <li><a href="tentang saya.html">TENTANG</a></li>
+                    <li><a href="html&css.html">HTML&CSS</a></li>
+                    <li><a href="#" id="select">CONSTRUCT 2</a>
                     <ul>
-                        <li><a href="contain/Construct.html">Deskripsi</a></li>
-                        <li><a href="contain/download.html">Download or Play</a></li>
+                        <li><a href="Construct.html">Deskripsi</a></li>
+                        <li><a href="download.html">Download or Play</a></li>
                     </ul>
                     </li>
                     <li><a href="#">FILMORA</a>
@@ -232,28 +242,22 @@
             </div>
 
             <div id="konten">
-                <div class="posttitle">Selamat Datang</div>
+                <div class="posttitle">Building Game 2D with Construct 2</div>
                 <div class="post">
+                    <img id="photo" src="../img/construct.png">
                     <p>
-                        Selamat datang di Website <b><a href="edited.html">everything about me</a></b>, disini saya akan memberitahukan kepada kalian
-                        tentang siapa saya, dan apa yang saya pelajari.
-                    </p>
-                    <p>
-                        Belajar Membuat Layout Desain Web menggunakan HTML dan CSS dengan
-                        mudah
-                    </p>
-                    <p>
-                        Untuk Belajar HTML klik halaman <b><a href="#">HTML</a></b>
-                        dan belajar CSS ke halaman <b><a href="#">CSS</a></b>
+                        Saya pernah membangun sebuah game sederhana 2D menggunakan software Construct 2. Game ini saya tujukan untuk
+                        tugas UAS dari pelajaran praktikum Multimedia. Saya membuat sebuah game yang bertemakan zombie.  
                     </p>
                 </div>
                 <div class="posttitle">Galeri</div>
                 <div class="post">
-                    <p>Ini adalah beberapa gambar tentang apa yang sering saya lakukan.</p>
-                    <img src="img/Capture.PNG" alt="">
-                    <img src="img/Capture2.PNG" alt="">
-                    <img src="img/Capture3.PNG" alt="">
+                    Berikut adalah beberapa gambar dari game saya: <br>
+                    <img src="../img/ss_1.PNG">
+                    <img src="../img/ss_2.PNG">
+                    <img src="../img/ss_3.PNG">
                 </div>
+                
             </div>
 
             <div id="footer">

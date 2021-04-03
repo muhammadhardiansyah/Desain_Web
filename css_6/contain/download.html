@@ -10,7 +10,7 @@
                 background-color: white;
             }
             #header {
-                background-image:url(img/bg.jpg);
+                background-image:url(../img/bg.jpg);
                 border-bottom-right-radius: 50px ;
                 width: 730px;
                 height: 300px;
@@ -136,7 +136,6 @@
                 color: white;
             }
             #konten {
-                background-color: white;
                 width: 690px;
                 height: auto;
                 margin: 0 0 20px;
@@ -180,8 +179,42 @@
                 border-top-left-radius: 50px;
                 border-bottom-right-radius: 50px;
             }
-            #select{
+            #select {
                 background: black;
+            }
+            #photo {
+                border-top-left-radius: 30%;
+                border-bottom-right-radius: 30%;
+                float: left;
+                margin: 5px 10px;
+                width: 50px;
+                height: auto;
+                
+            }
+            .post p {
+                text-align: center;
+            }
+            .post a:link, a:visited{
+                color: white;
+                padding: 10px;
+                margin: auto;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            .post #download {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color: green;
+            }
+            .post #download :hover{
+                background-color: lightgreen;
+            }
+            .post #play {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color: cornflowerblue;
+            }
+            .post #play :hover{
+                background-color: lightblue;
             }
         </style>
     </head>
@@ -190,7 +223,7 @@
 
             <div id="kiri">
                 <br><center>
-                    <img id="logo" src="img/myLogo.png" height="200" width="200">
+                    <img id="logo" src="../img/myLogo.png" height="200" width="200">
                     </center><br>
                     <h2>Hal yang saya pelajari</h2>
                     <ul>
@@ -211,13 +244,13 @@
             </div>
             <div id="menu">
                 <ul>
-                    <li><a id="select" href="project_Last.html">HOME</a></li>
-                    <li><a href="contain/tentang saya.html">TENTANG</a></li>
-                    <li><a href="contain/html&css.html">HTML & CSS</a></li>
-                    <li><a href="#">CONSTRUCT 2</a>
+                    <li><a href="../project_Last.html">HOME</a></li>
+                    <li><a href="tentang saya.html">TENTANG</a></li>
+                    <li><a href="html&css.html">HTML&CSS</a></li>
+                    <li><a href="#" id="select">CONSTRUCT 2</a>
                     <ul>
-                        <li><a href="contain/Construct.html">Deskripsi</a></li>
-                        <li><a href="contain/download.html">Download or Play</a></li>
+                        <li><a href="Construct.html">Deskripsi</a></li>
+                        <li><a href="download.html">Download or Play</a></li>
                     </ul>
                     </li>
                     <li><a href="#">FILMORA</a>
@@ -232,28 +265,19 @@
             </div>
 
             <div id="konten">
-                <div class="posttitle">Selamat Datang</div>
+                <div class="posttitle">Play or Download</div>
                 <div class="post">
-                    <p>
-                        Selamat datang di Website <b><a href="edited.html">everything about me</a></b>, disini saya akan memberitahukan kepada kalian
-                        tentang siapa saya, dan apa yang saya pelajari.
-                    </p>
-                    <p>
-                        Belajar Membuat Layout Desain Web menggunakan HTML dan CSS dengan
-                        mudah
-                    </p>
-                    <p>
-                        Untuk Belajar HTML klik halaman <b><a href="#">HTML</a></b>
-                        dan belajar CSS ke halaman <b><a href="#">CSS</a></b>
-                    </p>
+                    <p>Untuk mengunduh dan memainkannya secara desktop, klik disini:</p>
+                    <div id="download">
+                        <center><a href="https://drive.google.com/file/d/1q1iwYV2XLXfhnjDj_Ati4qBseGdZzVaM/view?usp=sharing">Download</a></center>
+                    </div>
+                    <p>Untuk memainkannya secara website tanpa mendownload terlebih dahulu, klik disini:</p>
+                    <div id="play">
+                        <center><a href="https://muhammadhardiansyah.github.io/knight_game">Play</a></center>
+                    </div>
                 </div>
-                <div class="posttitle">Galeri</div>
-                <div class="post">
-                    <p>Ini adalah beberapa gambar tentang apa yang sering saya lakukan.</p>
-                    <img src="img/Capture.PNG" alt="">
-                    <img src="img/Capture2.PNG" alt="">
-                    <img src="img/Capture3.PNG" alt="">
-                </div>
+                
+                
             </div>
 
             <div id="footer">

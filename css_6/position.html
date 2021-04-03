@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praktikum 6.1</title>
+        <style>
+            .static {
+                left: 100px;
+                position: static;
+                width: 300px;
+                height: 1000px;
+                background: red;
+            }
+            .relative {
+                left: 100px;
+                position: relative;
+                width: 400px;
+                height: 200px;
+                background: blue;
+            }
+            .absolute {
+                left: 350px;
+                top: 150px;
+                position: absolute;
+                width: 300px;
+                height: 100px;
+                background: lightgreen;
+            }
+            .fixed {
+                left: 300px;
+                top: 150px;
+                position: fixed;
+                width: 200px;
+                height: 100px;
+                background: lightblue ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="static">
+            Ini elemen Position:static. <br>Nilai Left:100px tidak berpengaruh
+        </div>
+        <div class="relative">
+            Ini elemen Position:relative. <br>Nilai Left:100px mengikuti alur
+        </div>
+        <div class="absolute">
+            Ini elemen position:absolute. <br>Bisa diletakkan dimana saja
+        </div>
+        <div class="fixed">
+            Ini elemen position:fixed. <br>Posisi tetap walau di<i>scrool</i>
+        </div>
+    </body>
+</html>
