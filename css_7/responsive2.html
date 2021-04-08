@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desain Responsive</title>
+    <style type="text/css">
+        body{
+            background-color: cornflowerblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            color: white;
+        }
+        #wrapper{
+            margin: auto;
+            width: 100%;
+        }
+        #header{
+            height: 150px;
+            padding: 20px;
+            border: 2px solid red;
+        }
+        #nav {
+            margin: auto;
+            padding: 20px;
+            height: 200px;
+            border: 2px solid red;
+        }
+        .box {
+            width: 22%;
+            margin: 0 2% 0 0;
+            height: 120px;
+            background: red;
+            border: 2px solid red;
+            float: left;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        #footer {
+            padding: 20px;
+            height: 120px;
+            border: 2px solid red;
+        }
+
+        /*tablet*/
+        @media only screen and (max-width: 768px){
+            #nav {
+                height: 360px;
+            }
+            .box{
+                width: 45%;
+                margin: 0 4% 20px 0;
+            }
+        }
+
+        /*smartphone*/
+        @media only screen and (max-width:375px){
+            #nav {
+                height: 640px;
+            }
+            .box {
+                width: 100%;
+                margin: 0 0 20px 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h2>Header</h2>
+        </div>
+        <div id="nav">
+            <h2>Service</h2>
+            <div class="box">BOX 1</div>
+            <div class="box">BOX 2</div>
+            <div class="box">BOX 3</div>
+            <div class="box">BOX 4</div>
+        </div>
+
+        <div id="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+</html>
