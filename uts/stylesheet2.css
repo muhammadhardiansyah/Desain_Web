@@ -9,7 +9,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #5e4edd, #6c32ca);
+    background: linear-gradient(to right, rgb(58, 201, 201), rgb(142, 240, 243));
 }
 
 .resume {
