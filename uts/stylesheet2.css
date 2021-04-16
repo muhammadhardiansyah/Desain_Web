@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right, #5e4edd, #6c32ca);
+}
+
+.resume {
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.left{
+    background: rgb(185, 185, 185);
+    width: 250px;
+    padding: 0 20 px;
+}
+
+.right {
+    margin: 10px;
+}
+
+.left .img_holder img{
+    margin-top: 15px;
+    width: 250px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+.box {
+    margin: 0;
+    border: 1px black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    background-color:cornflowerblue;
+    padding: 10px 0;
+}
+.contact {
+    margin: 0px;
+    padding: 10px 15px;
+    border: 0px;
+    font-size: small;
+}
+.contact .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.contact .li_wrap .text a {
+    color: black;
+}
+.icon {
+    padding-right: 5px;
+}
+.box_prof {
+    margin: 0;
+    border: 1px black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    background-color:cornflowerblue;
+    padding: 10px 0;
+}
+
+.box_sosial {
+    margin: 0;
+    border: 1px black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    background-color: cornflowerblue;
+    padding: 10px 0;
+}
+
+
+.box_hobi {
+    margin: 0;
+    border: 1px black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    background-color: cornflowerblue;
+    padding: 10px 0;
+}
+
+.box_org {
+    margin: 0;
+    border: 1px black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    background-color:cornflowerblue;
+    padding: 10px 0;
+}
+
+.box_edu {
+    margin: 0;
+    border: 1px black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    background-color:cornflowerblue;
+    padding: 10px 0;
+}
+
+.box_ahli {
+    margin: 0;
+    border: 1px black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    background-color:cornflowerblue;
+    padding: 10px 0;
+}
+
+#select {
+    background-color: blue;
+}
+.mb {
+    margin-bottom: 10px;
+}
+
+.right {
+    margin: 15px 45px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+#header {
+    border-bottom-right-radius: 50px ;
+    border-top-left-radius: 50px;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    float: right;
+    background-color: cornflowerblue;
+}
+
+#judul {
+    font-size: 22px;
+    text-align: right;
+    padding: 20px 40px 0 0;
+    
+}
+#judul a{
+    color: white;
+    text-decoration: none;
+}
+#judul a:hover {
+    color: grey;
+}
+.desc {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.box, .box_ahli, .box_edu, .box_org, .box_hobi, .box_prof,
+.box_sosial, a{
+    color: white;
+
+}
+
+.box_prof :hover, a :active {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    padding: 15px 0;
+    background-color: blue;
+}
+
+.box_sosial :hover, a :active {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    padding: 15px 0;
+    background-color: blue;
+}
+.box_hobi :hover, a :active {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    padding: 15px 0;
+    background-color: blue;
+}
+.box_org :hover, a :active {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    padding: 15px 0;
+    background-color: blue;
+}
+.box_edu :hover, a :active {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    padding: 15px 0;
+    background-color: blue;
+}
+.box_ahli :hover, a :active {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 290px;
+    padding: 15px 0;
+    background-color: blue;
+}
+
+#konten {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    padding: 20px 20px 20px 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+}
+.posttitle{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.posttitle a{
+    text-decoration: none;
+}
+.post {
+    margin: 0 20px 0 20px;
+    text-align: justify;
+}
+.post ul {
+    list-style-type: none;
+}
+.post ul li a {
+    color: black;
+    font-size: 30px;
+}
+.post ul li a .logo {
+    width: 30px;
+}
+.pict {
+    width: 100%;
+    border-radius: 50px;
+}
+.post ul li :hover, a:active {
+    background-color: blue;
+    color: white;
+}
+.pict :hover, a :active{
+    width: 200%;
+    border-radius: 50px;
+    -webkit-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+.date{
+    text-align: center;
+}
+.PA {
+    width: 50%;
+    padding: 5%;
+    float: left;
+}
+#galeri {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+#menu ul {
+    float: right;
+    background: cornflowerblue;
+    padding: 0 0px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    list-style: none;
+    width: 100%;
+}
+#menu ul ::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    font-size: small;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.isi {
+    margin: 20px 15px;
+    padding-top: 40px;
+}
+.isi p {
+    font-size: larger;
+}
+.isi ul li a {
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    float: none;
+    color: white;
+}
+.kotak {
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: blue;
+    text-align: center;
+    background-color: cornflowerblue ;
+    display: block;
+}
+.isi .kotak  :hover, a:active {
+    background-color: blue;
+    display: block;
+    border-radius: 10px;
+}
