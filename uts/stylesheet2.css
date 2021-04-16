@@ -42,6 +42,9 @@ body {
     color: white;
     text-align: center;
 }
+.title a{
+    color: white;
+}
 .box {
     margin: 0;
     border: 1px black;
@@ -176,12 +179,6 @@ body {
     padding-right: 40px;
 }
 
-.box, .box_ahli, .box_edu, .box_org, .box_hobi, .box_prof,
-.box_sosial, a{
-    color: white;
-
-}
-
 .box_prof :hover, a :active {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -264,6 +261,7 @@ body {
 .post ul li :hover, a:active {
     background-color: blue;
     color: white;
+    border-radius: 15px;
 }
 .pict :hover, a :active{
     width: 200%;
@@ -312,6 +310,11 @@ h2 {
     font-size: small;
     padding: 5px 10px;
     text-decoration: none;
+}
+#menu ul li :hover, a:active {
+    background-color: blue;
+    color: white;
+    border-radius: 0px;
 }
 .isi {
     margin: 20px 15px;
