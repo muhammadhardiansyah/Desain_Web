@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpus UNS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <img id="logoPerpus" src="img/LIB.png">
+        <h1 id="judul">Pendaftaran Anggota Perpustakaan UNS</h1>
+    </div>
+
+    <div id="wrapper">
+        <!--Petunjuk-->
+        <div class="petunjuk">
+            <img id="logoUns" src="img/logo-uns-biru.png">
+            <div id="isiPetunjuk">
+                <h2>Petunjuk : </h2>
+                <ol>
+                    <li><p>Pastikan data yang anda masukkan sesuai kartu identitas yang berlaku</p></li>
+                    <li><p>Jika anda sudah pernah mendaftar namun tidak bisa mengakses akun anda, maka hubungi pihak <b>admin</b> perpustakaan </p></li>
+                    <li><p>Periksa lagi sebelum data di submit.</p></li>
+                    <li><p>Kartu identitas yang sudah pernah dipakai mendaftar, tidak bisa mendaftar lagi.</p></li>
+                </ol>
+            </div>
+        </div>
+
+        <!--contain-->
+        <div class="contain">
+            <h2 id="subjudul">Formulir Pendaftaran</h2>
+            <div id="container">
+                <form name="dform" method="POST">
+                   
+                        <legend></legend>
+                        <table>
+                            <tr><p> <td><label>No Identitas</label></td>
+                                <td>:</td>
+                                <td><input class="full" id="nikFokus" type="text" name="nik" placeholder="1234567890" onfocus="pokus()" onblur="danger()"></td>
+                            </tr></p>
+                            
+                            
+                            <tr><p>
+                                <td><Label>Nama Lengkap</Label></td>
+                                <td>:</td>
+                                <td><input class="full" id="namaFokus" type="text" name="nama" onfocus="pokus1()" onblur="danger1()"></td>
+                            </p></tr>
+                            
+                            
+                            <tr><p>
+                                <td><label>Email</label></td>
+                                <td>:</td>
+                                <td><input class="full" id="mailFokus" type="text" name="Email" placeholder="qwerty123@hotmail.com" onfocus="pokus2()" onblur="danger2()"></td>
+                            </tr></p>
+                            
+                            <tr><p>
+                                <td><label>Password</label></td>
+                                <td>:</td>
+                                <td><input class="full" id="passFokus" type="password" name="password" placeholder="pass123" onfocus="pokus3()" onblur="danger3()"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td> <label>Fakultas</label> </td>
+                                <td>:</td>
+                                <td><input class="full" id="fakFokus" type="text" name="fakultas" onfocus="pokus4()" onblur="danger4()"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td> <label>Program Studi</label> </td>
+                                <td>:</td>
+                                <td><input class="full" id="prodiFokus" type="text" name="prodi" onfocus="pokus5()" onblur="danger5()"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><label>NIM</label></td>
+                                <td>:</td>
+                                <td><input class="full" id="nimFokus" type="text" name="nim" placeholder="K1234567" onfocus="pokus6()" onblur="danger6()"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><Label>Tanggal Lahir</Label></td>
+                                <td>:</td>
+                                <td class="panjang"><input class="full" id="lhirFokus" type="date" name="tglLhr" onfocus="pokus7()" onblur="danger7()"></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><label>Jenis Kelamin</label></td>
+                                <td>:</td>
+                                <td><label><input type="radio" width="auto" name="jenis" value="male">Laki-Laki</label>
+                                <label><input type="radio" name="jenis" width="auto" value="female">Perempuan</label></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><Label>Alamat Tempat Tinggal <br>Sesuai Identitas</Label></td>
+                                <td>:</td>
+                                <td><textarea id="addIdFokus" name="alamat_ID" cols="80" rows="5" onfocus="pokus8()" onblur="danger8()"></textarea></td>
+                            </p></tr>
+                            
+                            <tr><p>
+                                <td><label>Alamat Tempat Tinggal <br>Saat Ini</label></td>
+                                <td>:</td>
+                                <td><textarea id="addNowFokus" name="alamat_now" cols="80" rows="5" onfocus="pokus9()" onblur="danger9()" ></textarea></td>
+                            </p></tr>
+                            </td></tr>    
+                        </table>
+                    <div class="kirim" name="send">
+                        <p>
+                            <label>Persetujuan</label> <br>
+                            <label><input type="checkbox" name="peraturan"> Saya bersedia mematuhi segala peraturan perpustakaan</label> <br>
+                            <label><input type="checkbox" name="privasi"> Saya setuju dengan kebijakan privasi dari perpustakaan</label>
+                        </p>
+                        <p>
+                            <label><input type="button" value="Daftar" onclick="kirim()"></label>
+                            <label><input type="reset" value="Reset" ></label>
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" lang="javascript"></script>
+</body>
+</html>

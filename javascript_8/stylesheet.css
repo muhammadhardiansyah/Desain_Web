@@ -1,0 +1,71 @@
+body{
+    text-decoration: none;
+    color: black;
+    background-color: #DDF8F1;
+    float: none;
+}
+.header #logoPerpus{
+    width: 170px;
+    padding: 10px 40px 20px 20px;
+    float: left;
+    background-color: #DDF8F1;
+
+}
+.header #judul {
+    margin-top: 5px;
+    padding: 10px 0px 20px 20px;
+    text-align: center;
+    background-color: cyan;
+    font-family:sans-serif;
+}
+#wrapper {
+    margin: 20px 230px;
+}
+.petunjuk {
+    display: flex;
+}
+.petunjuk #logoUns {
+    width: 180px;
+    height: 180px;
+    float: left;
+    padding: 35px 25px;
+    position:relative;
+}
+.petunjuk #isiPetunjuk{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 10px;
+}
+.contain{
+    margin: 20px;
+    border: 3px solid cyan;
+    background-color: cyan;
+}
+.contain #subjudul {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contain #container{
+    background-color: #DDF8F1;
+}
+label{
+    font-family: sans-serif;
+}
+table {
+    margin: 40px;
+}
+table td{
+    padding: 10px;
+}
+.full{
+    width: 100%;
+    height: 20px;
+    border: 1px;
+    background: rgba(255, 255, 255, 0.884);
+}
+.panjang {
+    width: 500px;
+}
+.kirim {
+    padding: 40px;
+}
