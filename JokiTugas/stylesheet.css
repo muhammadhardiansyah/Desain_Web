@@ -333,9 +333,16 @@ input[type=text], textarea {
 }
 @media only screen and (max-width: 613px){
     .menu-nav ul{
+        padding: 0 5%;
+        width: 99%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 581px){
+    .menu-nav ul{
         padding: 0;
-        width: 100%;
-        margin: 0 5%;
+        width: 99%;
+        margin: 0;
     }
 }
 @media only screen and (max-width: 523px){
@@ -405,7 +412,7 @@ input[type=text], textarea {
     }
     .menu-nav ul li{
         display: block;
-        margin:10px 33%;
+        margin:0px 33% 10px 33%;
         
     }
 }
