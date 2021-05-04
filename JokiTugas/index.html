@@ -8,6 +8,7 @@
         <script src="assets/jquery-3.6.0.min.js"></script>
         <script src="assets/js/jquery-ui.js"></script>
         <script type="text/javascript">
+            //Slide
             $(document).ready(function(){
                 $("#home").click(function(){
                     $(".home").show("1s");
@@ -29,6 +30,7 @@
                     $(".contact").show("1s");
                 });
             });
+            //Image katalog
             $(document).ready(function(){
                 $("#1").click(function(){
                     var url = $("#1 img").attr("src");
@@ -133,6 +135,8 @@
                     });
                 });
             });
+
+            //focus & blur
             $(document).ready(function(){
                 $("input[type=text]").focus(function(){
                     $(this).css("background-color","lightblue")
@@ -242,12 +246,12 @@
                             <div class="column">
                                 <form class="form" name="dform">
                                     <label>Nama</label>
-                                    <input type="text" id="name" name="name" placeholder="Nama">
+                                    <input type="text" id="name" name="name" placeholder="Nama" required>
                                     <label>Email</label>
-                                    <input type="text" id="email" name="email" placeholder="xxx@gmail.com">
+                                    <input type="text" id="email" name="email" placeholder="xxx@gmail.com" required>
                                     <label>Subject</label>
-                                    <textarea id="subject" name="subject" placeholder="Pesan ..." style="height:200px"></textarea>
-                                    <input type="submit" class="submit" id="submit" value="Send">
+                                    <textarea id="subject" name="subject" placeholder="Pesan ..." style="height:200px" required></textarea>
+                                    <input type="button" class="submit" id="submit" value="Send">
                                     <input type="reset" class="submit" value="reset">
                                 </form>
                             </div>
