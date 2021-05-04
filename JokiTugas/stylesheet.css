@@ -417,7 +417,8 @@ input[type=text], textarea {
     }
     .menu-nav ul li{
         display: block;
-        margin:0px 33% 10px 33%;
+        width: 33.3%;
+        margin:0px 33.3% 10px 33.3%;
         
     }
 }
