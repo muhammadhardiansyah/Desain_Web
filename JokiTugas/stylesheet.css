@@ -120,6 +120,7 @@ input[type=text], textarea {
     margin-bottom: 16px;
   } 
 .submit {
+    margin: 10px;
     color: black;
     border-radius: 4px;
     padding: 12px 20px;
@@ -207,7 +208,7 @@ input[type=text], textarea {
 } 
 .konten {
     position: relative;
-    margin-left: 19%;
+    margin: 0 19%;
     background-color: white;
     width: 62%;
     text-align: center;
@@ -387,6 +388,10 @@ input[type=text], textarea {
     }
     .image-icon{
         font-size: 20px;
+    }
+    .konten{
+        margin: 5%;
+        width: 90%;
     }
 }
 @media only screen and (max-width: 447px){
