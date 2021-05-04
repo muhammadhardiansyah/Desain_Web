@@ -71,7 +71,6 @@ ul{
 }
 .menu-nav .image-icon:hover{
     background-color: white;
-    background-color: #fff;
     transition: all 0.2s linear ;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
@@ -127,23 +126,15 @@ input[type=text], textarea {
     background-color: #ffbb05;
     cursor: pointer;
     border: none;
+    transition: all 0.2s linear ;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
 } 
 .submit:hover {
-    background-color: white;
+    background-color: rgba(241, 241, 52, 0.719);
     border: #ccc;
-} 
-.reset {
-    color: black;
-    border-radius: 4px;
-    padding: 12px 20px;
-    background-color: #ffbb05;
-    cursor: pointer;
-    border: none;
-} 
-.reset:hover {
-    background-color: white;
-    border: #ccc;
-} 
+}  
 .column {
     float: left;
     width: 50%;
@@ -167,9 +158,34 @@ input[type=text], textarea {
     color: grey;
 }
 
-
-
-
+#ig:hover{
+    color: #e56969;
+    transition: all 0.2s linear ;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+#fb:hover{
+    color: blue;
+    transition: all 0.2s linear ;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+#twt:hover{
+    color: cyan;
+    transition: all 0.2s linear ;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+#wa:hover{
+    color: green;
+    transition: all 0.2s linear ;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
 .heading {
     text-align: center;
     margin-bottom: 50px;
